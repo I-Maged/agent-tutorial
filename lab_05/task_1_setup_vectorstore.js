@@ -1,3 +1,6 @@
+/*
+ docker run -p 8000:8000 -v ./chroma_db:/chroma/chroma ghcr.io/chroma-core/chroma:latest
+ */
 import fs from "node:fs";
 import path from "node:path";
 import { ChromaClient } from "chromadb";
