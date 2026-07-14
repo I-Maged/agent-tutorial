@@ -34,11 +34,6 @@ const main = async () => {
 
   console.log("📚 Examples loaded:");
 
-  //   for (let i = 0; i < examples.length; i++) {
-  //     const ex = examples[i];
-  //     console.log(`Example ${i + 1}: ${ex.input} → ${ex.output.slice(0, 50)}...`);
-  //   }
-
   examples.forEach((ex, i) => {
     console.log(
       `   Example ${i + 1}: ${ex.input} → ${ex.output.slice(0, 50)}...`,
