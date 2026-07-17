@@ -5,7 +5,7 @@ import { OllamaEmbeddings } from "@langchain/ollama";
 
 async function main() {
   console.log("📄 Task 2: Smart Document Processing");
-  console.log("=" * 50);
+  console.log("=".repeat(50));
 
   const client = new ChromaClient({
     host: "localhost",
@@ -141,7 +141,7 @@ async function main() {
   console.log(`   - Documents processed: ${docsProcessed}`);
   console.log(`   - Total chunks created: ${totalChunks}`);
   console.log(`   - Collection size: ${collectionCount}`);
-  console.log("=" * 50);
+  console.log("=".repeat(50));
 
   // 4. Create marker file
   const markerDir = "/root/markers";
